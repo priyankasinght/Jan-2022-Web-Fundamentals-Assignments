@@ -1,0 +1,140 @@
+body{
+    margin: 0%;
+    /* height: 3000px; */
+}
+.material-icons{
+    color: rgb(96, 96, 96);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 34px;
+    padding: 15px;
+}
+.header-left{
+ display: flex;   
+ text-align: center;
+}
+.header-left img{
+    display: inline-block;
+    margin-top: -25px;
+    width: 100%;
+    height: 70px;
+}
+.header i{
+    padding: 0px 7px;
+    cursor: pointer;
+}
+.header-search form{
+    display: flex;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+}.header-search input{
+    width: 500px;
+    padding: 10px;
+    margin: 0px;
+}
+.header-search button{
+    margin: 0px;
+    height: 100%;
+    border: none;
+}
+
+/* STYLES FOE MAIN BODY OF CATEGORY SECTION  */
+
+.main-body{
+    display: flex;
+    overflow: hidden;
+    height: calc(100vh - 40px);
+}
+.sidebar{
+    height: 100%;
+    width:200px;
+    background-color: white;
+    overflow-y: scroll;
+    
+}
+.sidebar-catogories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+.sidebar-catogory i{
+    padding-left: 15px;
+    margin: 10px;
+}
+.sidebar-catogory span{
+    color: rgb(96, 96, 96);
+    margin-left: 0spx;
+    vertical-align:6px;
+
+}
+.sidebar-catogory:hover{
+    background-color: rgb(236, 236, 241);
+    cursor: pointer;
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+
+/* VIDEO SECTION  */
+
+.videos{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    padding: 15px 25px;
+    border-top: 1px solid #ddd;
+    overflow-y: scroll;
+}
+.video-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.video{
+    width: 310px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.video-thumbnail{
+    width: 100%;
+    height: 170px;
+}
+.video-thumbnail img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.author img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.video-details{
+    display: flex;
+    margin-top: 10px;
+} 
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-top: -19px;
+    padding-left: 10px;
+}
+.title h3{
+    color: rgb(0, 0, 0);
+    line-height:20px;
+    margin-bottom: 6px;
+}
+.title a, span{
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+}
