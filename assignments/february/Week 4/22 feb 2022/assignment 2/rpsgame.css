@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(107, 129, 201)
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    margin-top: -70px;
+    margin-bottom: -10px;
+}
+
+.stone{
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: -300px;
+}
+
+.paper{
+    width:85px;
+    margin-left: 300px;
+    margin-top: 100px;
+
+}
+
+.scissors{
+    width: 75px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.score1{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    display: inline-block;
+    margin-left: 200px;
+    padding-top: 122px;
+
+}
+.score2{
+    color: rgb(255, 255, 255);
+    font-size:30px;
+    padding: 0%;
+    margin-left: 120px;
+    margin-right: -182px;
+    display: flex;
+}
+.star1{
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-bottom: -10px ;
+    padding-left: 150px;
+    font-size: 30px;
+}
+.star2{
+  
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: -10px ;
+    padding-right: 150px;
+    font-size: 30px;
+}
+.mark{
+    color: white;
+    font-size: 100px;
+    display: flex;
+    margin-top: -140px;
+    margin-left: 290px;
+}
+
+.bottom1{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    display: inline-block;
+    margin-left: 200px;
+    padding-top: 50px;
+}
+.bottom2{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    display: inline-block;
+    margin-left: 350px;
+    padding-top: 50px;
+}
