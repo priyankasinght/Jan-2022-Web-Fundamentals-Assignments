@@ -1,23 +1,23 @@
-function input() {
-    let input1 = prompt("Enter the limit for FizzBuzz Series");
-    let limit = parseInt(input1);
-    if (isNaN(limit)) {
-        alert(`please enter valid Number not:  ${input1} `)
+function fizzBuzz() {
+    var inp = prompt("Enter a number :");
+
+    if (isNaN(inp)) {
+        document.write("Please enter a valid number!!!");
     }
     else {
-        for (let i = 1; i <= limit; i++) {
+        inp = parseInt(inp);
+        for (i = 1; i <= inp; i++) {
+
             if (i % 3 == 0 && i % 5 == 0) {
-                document.write(`'FizzBuzz', `);
+                document.write("FizzBuzz");
+            } else if (i % 3 == 0) {
+                document.write("Fizz");
+            } else if (i % 5 == 0) {
+                document.write("Buzz");
+            } else {
+                document.write(i);
             }
-            else if (i % 5 == 0) {
-                document.write(`'Buzz', `);
-            }
-            else if (i % 3 == 0) {
-                document.write(`'Fizz', `);
-            }
-            else {
-                document.write(i+", ");
-            }
+            document.write("<br />")
         }
     }
 }
