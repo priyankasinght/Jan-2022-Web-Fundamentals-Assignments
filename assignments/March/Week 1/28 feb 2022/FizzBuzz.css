@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+h2{
+    color: rgb(219, 204, 138);
+    font-weight: bold;
+}
+button {
+    width: 15%;
+    color: rgb(226, 223, 209);
+    background: linear-gradient(-135deg, #82c9c5, #1b1113);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #145212, #1b1111);
+    position: relative;
+}
+
+

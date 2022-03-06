@@ -1,0 +1,12 @@
+form{
+    background-color: rgb(52, 204, 231);
+   }
+  
+.sum{
+    width: 60px;
+    text-align: center;
+}
+
+.add:hover{
+    background-color: rgb(160, 240, 233);
+   }
