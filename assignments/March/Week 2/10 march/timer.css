@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    border: 1px solid lightgray;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    border-bottom: 2px solid rgb(236, 69, 222);
+}
+span{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+button{
+    padding: 5px 150px 5px 150px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: rgb(236, 69, 222);
+    color: white;
+    border-width: 1px;
+    cursor: pointer;
+
+}
+button:active{
+    background: rgb(1, 1, 37);
+}
