@@ -10,7 +10,7 @@ body{
 }
 .container{
     border: 1px solid lightgray;
-    width: 30vw;
+    width: 24%;
     height: 30vh;
     border-radius: 10px;
 }
